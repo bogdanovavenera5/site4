@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    
+    &__menu {
+        display:flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: auto;
+        padding-top: 28px;
+    }
+    &__link {   
+        line-height: 16px;        
+        color: #ffffff;
+		font-size: 15px;
+		font-weight: 400;
+		&:hover {            
+			color: $main-color;
+        } 
+    }		   
+	&__item {
+        border-right: 2px dotted black;
+		padding-right: 14px;
+        padding-left: 14px;
+		&:last-child {
+            border-right: none;
+        }
+    }
+    &__contacts {      
+        padding-top: 16px;       
+    }
+    &__phone {     
+        padding-right: 10px; 
+        font-size: 19px; 
+        line-height: 14px;        
+        font-weight: 700;
+        color: #ffffff;
+        &:hover {           
+			color: $main-color; 
+        }
+    }  
+    &__text {  
+        margin: 0;
+        line-height: 16px;
+        padding-top: 22px;
+        width: 50%; 
+        margin: 0;          
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+}
+   

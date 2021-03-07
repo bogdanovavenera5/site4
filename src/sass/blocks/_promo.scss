@@ -1,0 +1,68 @@
+.promo {
+    min-height: 680px;
+    padding: 22px 0  80px 0;
+    background: url(../img/cargo_from_china.png) center (center/cover) no-repeat;
+
+    &__whraper {     
+        margin: 0 auto;
+        
+    }
+    &__header {
+        margin: 0;
+        text-align: center;
+        margin-top: 50px;       
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;        
+        
+    }
+    &__subheader {
+        margin: 0;
+        text-align: center;
+        font-size: 62px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;     
+        
+    }
+    
+    &__descrdev {
+        margin: 0;
+        text-align: center;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__devider {
+        margin-top: 40px;
+    }
+    
+    &__icons {       
+        display: block; 
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;       
+    }
+    &__img {
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+        width: 62px;
+        height: 64px;
+    }
+    &__descr { 
+   
+        margin-top: 20px;      
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #ffffff; 
+        text-align: center;
+        width: 260px;
+    }
+}
