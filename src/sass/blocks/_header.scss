@@ -39,14 +39,15 @@
         }
     }  
     &__text {  
-        margin: 0;
+        margin: none;
         line-height: 16px;
         padding-top: 22px;
-        width: 50%; 
-        margin: 0;          
+        width: 50%;               
         font-size: 14px;
         font-weight: 300;
         color: #ffffff;
+        text-align: end;
+
     }
     
 }

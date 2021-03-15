@@ -2,7 +2,17 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+*{
+    box-sizing: border-box;
+}
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
+@import "blocks/works";
+@import "blocks/title";
+@import "blocks/delivery";
+@import "blocks/subtitle";
+@import "blocks/agent";
+@import "blocks/price";
+
 

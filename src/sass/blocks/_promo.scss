@@ -2,10 +2,8 @@
     min-height: 680px;
     padding: 22px 0  80px 0;
     background: url(../img/cargo_from_china.png) center (center/cover) no-repeat;
-
-    &__whraper {     
-        margin: 0 auto;
-        
+    &__wraper {     
+        margin: 0 auto;        
     }
     &__header {
         margin: 0;
@@ -14,8 +12,7 @@
         font-size: 24px;
         line-height: 1.2;
         font-weight: 300;
-        color: #ffffff;        
-        
+        color: #ffffff;       
     }
     &__subheader {
         margin: 0;
@@ -24,10 +21,8 @@
         line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
-        color: #ec644b;     
-        
-    }
-    
+        color: #ec644b;    
+    }    
     &__descrdev {
         margin: 0;
         text-align: center;
@@ -38,9 +33,10 @@
         color: #ffffff;
     }
     &__devider {
-        margin-top: 40px;
-    }
-    
+        display: block;       
+        margin: 0 auto; 
+        margin-top: 40px;           
+    }    
     &__icons {       
         display: block; 
         justify-content: center;
@@ -55,8 +51,7 @@
         width: 62px;
         height: 64px;
     }
-    &__descr { 
-   
+    &__descr {    
         margin-top: 20px;      
         font-size: 16px;
         line-height: 22px;
