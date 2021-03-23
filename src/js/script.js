@@ -59,3 +59,4 @@ function initMap() {
         InfoWindow.open(myMap, marker);
     });
 };
+""

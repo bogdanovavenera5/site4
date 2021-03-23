@@ -1,4 +1,4 @@
-.map {
+#map {
     position: relative;
     height: 500px;
     width: 100%;
@@ -8,7 +8,7 @@
         background-color: $white_color;
         padding: 10px 38px 13px 24px;
         text-align: left;
-            
+       
     }
     &__address {
         font-size: 14px;
