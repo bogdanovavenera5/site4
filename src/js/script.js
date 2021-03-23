@@ -52,7 +52,7 @@ function initMap() {
     });
 
     var InfoWindow = new google.maps.InfoWindow({
-        content: '<div class="map__card"><h2 class="title">г. Москва</h2><div class="map__address">ул. Садовническая, дом 5, офис 4-6<br>700 от м. Новокузнецкая <br>Тел: +7 (926) 423 01 00</div><div class="map__email">info@glopt.ru</div></div>'
+        content: '<div class="map__card"><h2 class="title">г. Москва</h2><div class="map__address">ул. Садовническая, дом 5, офис 4-6<br>700 от м. Новокузнецкая <br>Тел: +7 (926) 423 01 00</div><a href="#" class="map__email">info@glopt.ru</a></div>'
     });
 
     marker.addListener('click', function(){
