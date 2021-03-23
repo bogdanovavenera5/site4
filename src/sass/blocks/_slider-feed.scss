@@ -1,0 +1,106 @@
+
+.slider-feed {
+    transition: all .6s;
+    &__img {       
+        margin-top: 35px;
+        border-radius: 50%;
+        img {
+            border-radius: 50%;
+            margin: 0 auto;  
+        }
+    }
+    &__text {
+        &:focus {
+            border: none;
+            outline: none;
+        }    
+    }
+    &__header {
+        margin-top: 17px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;   
+    }
+    &__descr {
+        margin-top: 0;
+        font-size: 14.1px;
+        font-weight: 300; 
+        text-align: center; 
+        
+    }
+    
+}
+.slick-slider {
+    position: relative;
+}
+.slider-feed .slick-arrow {
+    position: absolute;
+    top: calc(50%  -95px);
+    font-size: 0;
+    width: 14px;
+    height: 46px;
+    z-index: 10;
+}
+.slick-next { 
+    position: absolute;   
+    right: 650px; 
+    top: 72px;   
+    transform: translateY(-28%);
+    background: url('../icons/up_right.png') 0 0 / 100% no-repeat;
+    border: none;
+    background-color: #fff;        
+    
+}
+.slick-prev {
+    position: absolute;   
+    left: 650px; 
+    top: 72px;     
+    transform: translateY(-28%); 
+    background: url('../icons/up_left.png') 0 0 / 100% no-repeat;
+    border: none;
+    background-color: #fff;        
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+    &:nth-child(4) {
+        margin-right: 0;
+    }
+}
+.slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: $main-color;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid $main-color;
+}
+
+.slick-slide {
+    max-width: 600px;
+    transition: all 0.3 ease 0s;
+    opacity: 0.2;
+    text-align: center;
+    transform: scale(0.7);
+    margin-right: -70px;
+}
+ .slick-center {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+   
+    

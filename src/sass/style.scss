@@ -1,7 +1,13 @@
 @import "base/variables";
+@import "base/animations";
 * {
     font-family: "Roboto", sans-serif;
 }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -14,5 +20,19 @@
 @import "blocks/subtitle";
 @import "blocks/agent";
 @import "blocks/price";
+@import "blocks/manager";
+@import "blocks/schema";
+@import "blocks/feed";
+@import "blocks/slider-feed";
+@import "blocks/forms2";
+@import "blocks/map";
+
+
+
+
+
+
+
+
 
 

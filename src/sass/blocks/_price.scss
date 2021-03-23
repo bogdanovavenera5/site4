@@ -1,5 +1,13 @@
 .price {
    padding: 43px 0 51px 0;
+   position: relative;
+    .devider__small {
+        margin: 0 auto;
+        margin-top: 24px;
+        width: 148px;
+        height: 1px; 
+         background-color: $main-color;      
+    }
   
     &__container {
         display: flex;
@@ -34,10 +42,16 @@
     } 
     &__icon {
         display: block;
+        justify-content: center;
         align-items: center;
         margin: 0 auto;
-        margin-top: 15px; 
-    
+        margin-top: 15px;        
+    }
+    &__icon_animated {
+        animation: heartbeat 1.5s ease infinite;       
+        &:hover {
+            animation-play-state: paused;
+    } 
     }        
     
     &__red {
@@ -61,18 +75,35 @@
         align-items: center;
         margin: 0 auto;
     }
-    &__block2 {
+    &__block2 {       
+    
         .button { 
-            position: absolute;
-            bottom: -2408px;
+            position: absolute; 
+            left: 50%;
+            transform: translateX(-50%);           
             font-size: 12px;
             line-height: 22px;
             font-weight: 400;
             text-transform: uppercase;
             color: #ffffff;
-        }     
-        
+            bottom: 28px;
+            z-index: 2; 
+                 
+        }        
     }
+    &__bg {
+        position: absolute; 
+        left: 50%;
+        transform: translateX(-50%);       
+        width: 175px;
+        height: 60px;
+        background-color: #ffffff;
+        bottom: 30px; 
+        border: none; 
+        box-shadow: none; 
+        z-index: 1;           
+    }
+    
     &__title {
         margin-top: 55px;      
         font-size: 28px;
@@ -81,25 +112,47 @@
         color: #3a3a3a;
         text-align: center;
     }
+    &__iconbg {
+        position: absolute;
+        left: 50%;
+        top: 610px;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 23px;
+        width: 115px;
+        height: 115px;      
+        border-radius: 100%;
+        background-color: #ffffff;
+        z-index: 1;
+    }
     &__icon2 {
         position: absolute;
-        top: 2900px;
+        left: 50%;       
+        bottom: 3px;
+        transform: translateX(-50%);
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         margin-top: 23px;
         width: 102px;
-        height: 102px;       
+        height: 102px;      
         border: 1px solid $main-color;
         border-radius: 100%;
-        img {
+        background-color: #ffffff;
+        z-index: 2;
+        
+        img {         
             display: block;
             justify-content: center;
             align-items: center;
             width: 59px;
             height: 61px;
-            margin: 0 auto;      
+            margin: 0 auto; 
+            z-index: 2; 
             
         }
     }

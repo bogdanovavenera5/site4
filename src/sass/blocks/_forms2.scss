@@ -1,0 +1,83 @@
+.forms2 {
+    min-height: 440px;   
+    background: url(../img/form_bg.png) center (center/cover) no-repeat;
+    padding: 63px 0 80px 0;
+     &__block {
+        margin: 0 auto;
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+        padding: 15px 0 16px 0;
+        line-height: normal;
+    }
+    &__title {                 
+        font-size: 19px;       
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 14px;        
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }     
+    &__block1 {         
+        margin: 0 auto;       
+        width: 896px;
+        height: 230px;       
+        background-color: rgba(255,255,255,0.7);
+        line-height: normal;
+        padding-left: 40px;
+        z-index: 1;
+    }
+    
+    input {  
+        position: relative;   
+        line-height:  30px; 
+        border-radius: 30px;                
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;width: 270px;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        padding-left: 20px;
+        margin-top: 18px;         
+        &:active,&:focus {outline: none; }
+    }
+    .message {        
+        width: 818px;   
+        height: 73px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);     
+        font-size: 13px;
+        line-height: 73px;
+        font-weight: 302;
+        color: #616467;
+        margin-top: 7px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        border-radius: 20px;                
+        &:active,&:focus {outline: none;}
+    }
+    
+    .button_submit {
+        position: absolute;
+        bottom: 10px;        
+        left: 50%;
+        top: 4840px;
+        width: 180px;
+        height: 45px;           
+        transform: translateX(-50%);        
+        background-color: $main-color;
+        border-radius: 30px;                    
+        &:active,&:focus {outline: none;
+    
+        } 
+    }
+           
+}
