@@ -18,7 +18,7 @@ $(document).ready(function(){
                 infinite: true, 
                 variableWidth: true,
                 }
-              },
+            },
         ]
     });
         
@@ -57,10 +57,9 @@ function initMap() {
     marker.addListener('click', function(){
         InfoWindow.open(myMap, marker);
     });
-        
 };
 
-$(window).scroll(function(){
+$(window).scroll(function() {
     if ($(this).scrollTop() > 1600) {
         $('.pageup').fadeIn();
     } else {
@@ -68,13 +67,15 @@ $(window).scroll(function(){
     }
 });
 
-    $("a[href='#up']").click(function(){
-        const _href = $(this).attr("href");
-        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-        return false;
+$("a[href=#]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+
+    new WOW().init();
 });
 
-
+    
 
 
 
