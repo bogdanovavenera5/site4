@@ -7,7 +7,14 @@
     background-color: $main-color;
     border-radius: 20px;
     border: none;   
-    &:active,&:focus {outline: none; }   
+    &:active,&:focus {outline: none; }
+    &:hover {            
+        background-color: rgb(243, 78, 36) ;
+    } 
+    &:hover {
+        box-shadow: 1px 1px 10px #ec6c22;
+        border: none;
+    }        
     &__receive  { 
         display: block;
         margin:  0 auto;
@@ -18,6 +25,17 @@
         text-transform: uppercase;
         border-radius: 30px;
         text-align: center;         
-    }   
+    }  
+    &__submit {
+        position: absolute;
+        bottom: 10px;        
+        left: 50%;
+        top: 4845px;
+        width: 180px;
+        height: 45px;           
+        transform: translateX(-50%);       
+        border-radius: 30px;              
+    } 
+     
 }
     
