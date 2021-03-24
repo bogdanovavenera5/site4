@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+@media screen and (max-width: 1200px){
+    .header {
+        &__item {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .promo{
+        &__subheader {
+            font-size: 55px;
+        }
+        &__descrdev {
+            font-size: 35px;
+        }
+        .button {
+            font-size: 14px;  
+        }
+        &__descr {
+            font-size: 14px;
+            width: 230px;
+        }
+    }
+    .delivery {
+        &__img {
+            width: 100%;
+        }
+    }
+    .price {
+        &__block {
+            width: 230px;
+            height: 355px;
+        }
+        &__descr {
+            margin: 15px 0 15px 0;
+        }
+        h2 {
+            width: 230px;  
+        }
+        &__form {
+            width: 900px;
+        }
+
+    }
+    .slider-feed {
+        .slider-feed .slick-arrow {
+            top: calc(50%);   
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .slick-next {
+            right: 450px;
+        }
+        .slick-prev {
+            left: 450px;
+        }
+        .slider-feed__item {
+            max-width: 450px;
+        }
+
+    }
+    .forms2 {
+
+        .button.button__submit {
+            top: 4858px;
+        }
+    }
+    .footer {
+        &__title {
+            font-size: 14px;
+    }
+        &__text {
+            font-size: 14px;
+    }
+        &__phone {
+            font-size: 15px;
+    }
+        &__text2 {
+            margin-left: 30px;
+    }
+}
+    
+
+}
