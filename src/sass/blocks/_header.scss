@@ -1,7 +1,7 @@
 .header {
     display: flex;
     
-    &__menu {
+    &-menu {
         display:flex;
         justify-content: space-between;
         list-style-type: none;
@@ -25,11 +25,12 @@
             border-right: none;
         }
     }
-    &__contacts {      
+    &__contacts {  
+        display: flex;    
         padding-top: 16px;       
     }
-    &__phone {     
-        padding-right: 10px; 
+    &__phone { 
+        margin-top: 15px;    
         font-size: 19px; 
         line-height: 14px;        
         font-weight: 700;
@@ -38,11 +39,14 @@
 			color: $main-color; 
         }
     }  
-    &__text {  
-        margin: none;
+    &__text {
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;        
         line-height: 16px;
         padding-top: 22px;
-        width: 95%;               
+        width: 95%;
+        margin: 0;               
         font-size: 14px;
         font-weight: 300;
         color: #ffffff;
@@ -52,6 +56,10 @@
     .button {
         margin-top: 30px;
     }
+    .hamburger{
+        display: none;
+    }
+	
     
 }
    

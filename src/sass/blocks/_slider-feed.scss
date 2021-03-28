@@ -76,14 +76,21 @@
 }
 .slick-dots button {
     font-size: 0;
-    width: 10px;
-    height: 10px;
-    background-color: $main-color;
-    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid $main-color;   
+    border-radius: 50%;      
+    &:active,&:focus {outline: none; }
 }
 .slick-dots li.slick-active button {
     background-color: transparent;
     border: 1px solid $main-color;
+    background-color:  $main-color;
+    &:hover {
+        box-shadow: 1px 1px 10px #ec6c22;
+        border: none;
+    }
 }
 
 .slick-slide {

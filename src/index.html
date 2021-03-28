@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>glopt</title> 
+    <title>Global opt</title> 
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/slick.css"/>    
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -14,57 +15,68 @@
 </head>
 <body>
     <section  class="promo">
-        <div class="container">
+        <div class="container">            
             <header class="header">
                 <a href="#" class="header__logo"><img src="icons/logo_big.png" alt="logo"></a>
-                <ul class="header__menu">
-                    <li class="header__item"><a href="#" class="header__link">Преимущества</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Цены</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Схема работы</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
-                    <li class="header__item"><a href="#" class="header__link"> Контакты</a></li>
-                </ul>
-                <div class="header__contacts">
-                    <div class="header__text">Есть вопросы?</div>
+                <nav class="header__list"> 
+                    <ul class="header-menu">
+                        <li class="header__item"><a href="#" class="header__link">Преимущества</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Цены</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Схема работы</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
+                        <li class="header__item"><a href="#" class="header__link"> Контакты</a></li>
+                    </ul> 
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+               
+            <div class="header__contacts">
+                <div class="header__text">Есть вопросы?
                     <a href="+79264230100" class="header__phone">+7 (926) 423 01 00</a>
                 </div>
+                <div class="header__button">
                     <button class="button ">Перезвоните мне</button>
-                
+                </div>        
+            </div>          
+           
+            
             </header>
             <div class="promo__wraper">
                 <h1 class="promo__header">Global Opt - логистика полного цикла из Китая в Россию</h1> 
                 <h2 class="promo__subheader">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h2>
                 <div class="promo__descrdev">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</div>
-                <img src="img/ellipse_1.png" alt="devider" class="promo__devider">
+                <div class="promo__line"></div>
                 <div class="row">
-                    <div class="col-md-2 col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                         <div class="promo__icons">
                             <img src="icons/icon_main/icon_1.png" alt="cargo" class="promo__img">
                             <div class="promo__descr">Перевозка негабаритных и крупнотоннажных грузов                        
                             </div> 
                         </div> 
                     </div> 
-                    <div class="col-md-2 col-lg-3">                         
+                    <div class="col-md-3 col-lg-3">                         
                         <div class="promo__icons"> 
                             <img src="icons/icon_main/icon_2.png" alt="optimization" class="promo__img">
                             <div class="promo__descr"> Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок                   
                             </div>
                         </div>
                     </div> 
-                    <div class="col-md-2 col-lg-3">             
+                    <div class="col-md-3 col-lg-3">             
                         <div class="promo__icons">
                             <img src="icons/icon_main/icon_3.png" alt="delivery" class="promo__img">
                             <div class="promo__descr">Осуществляем прямые поставки с заводов от двери до двери                        
                             </div>
                         </div>
                     </div>  
-                    <div class="col-md-2 col-lg-3">       
+                    <div class="col-md-3 col-lg-3">       
                         <div class="promo__icons">
                             <img src="icons/icon_main/icon_4.png" alt="to mosscow" class="promo__img">
                             <div class="promo__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг
-                            </div>
-                        
+                            </div>                        
                         </div>
                     </div>                
                 </div>
@@ -72,7 +84,6 @@
             </div>
         </div>
     </section>
-
     <section class="work">
         <div class="container">
             <div class="title">Преимущества работы с GlobalOpt</div>
@@ -165,14 +176,14 @@
         </div>
     </section>
 
-    <section class="delivery">
+   <section class="delivery">
         <div class="container">
             <div class="title">Наша работа - больше чем просто доставка</div>
             <div class="devider__small"></div>
             <div class="subtitle">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза<br>
             и ваших требований по срокам и бюджету.</div>
             <div class="row">
-                <div class="col-md-3 col-lg-4">
+                <div class="col-md-4 col-lg-4">
                     <div class="delivery__item">
                         <img src="img/hand.png" alt="hand" class="delivery__img">
                         <h2 class="delivery__header">Страховка груза
@@ -180,7 +191,7 @@
                         <div class="delivery__descr"> Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-4">
+                <div class="col-md-4 col-lg-4">
                     <div class="delivery__item">
                         <img src="img/boat_big.png" alt="boat_big" class="delivery__img">
                         <h2 class="delivery__header">Логистика последней мили
@@ -188,7 +199,7 @@
                         <div class="delivery__descr">Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.</div>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-4">
+                <div class="col-md-4 col-lg-4">
                     <div class="delivery__item">
                         <img src="img/bisnes_idea.png" alt="bisnes_idea" class="delivery__img">
                         <h2 class="delivery__header">Мы всегда смотрим вперед
@@ -200,7 +211,7 @@
         </div>
     </section>
 
-    <section class="agent">
+     <section class="agent">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ofset-5"> 
@@ -229,53 +240,53 @@
         Любой груз доставим вовремя.</div>
         <div class="price__container">
             <div class="row">
-                <div class="col-md-2 col-lg-3"> 
-                    <div class="price__block">                                                    
+                <div class="col-md-6 col-lg-3"> 
+                    <div class="price__block price__block_1">                                                    
                         <h2 class="price__text1">Доставка морем</h2>                                                   
                         <img src="icons/icon_transport/icon_boat.png" alt="boat" class="price__icon price__icon_animated">
                         <div class="price__text">Доставка 35-50 дней
                         </div>
                         <div class="price__red">от 0,3$ за 1 кг</div>
-                        <div class="price__descr">Морские перевозки грузов из Китая в Россию за 35 дней<br> 
+                        <div class="price__descr">Морские перевозки грузов из <br> Китая в Россию за 35 дней<br> 
                         с прохождением таможни</div>
                         <button class="button">Подробнее</button>
                     </div>
                 </div>
            
-                <div class="col-md-2 col-lg-3"> 
+                <div class="col-md-6 col-lg-3"> 
                     <div class="price__block">                        
                         <h2 class="price__text1">Ж/Д доставка</h2>     
                         <img src="icons/icon_transport/icon_train.png" alt="train" class="price__icon price__icon_animated ">
                         <div class="price__text">Доставка 15-28 дней
                         </div>                   
                         <div class="price__red"> от 1$ за 1 кг</div>
-                        <div class="price__descr">ЖД перевозки грузов из Китая в Россию от 2 недель<br> 
+                        <div class="price__descr">ЖД перевозки грузов из <br> Китая в Россию от 2 недель<br> 
                         с прохождением таможни</div>
                         <button class="button">Подробнее</button>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-lg-3">
-                    <div class="price__block">                        
+                <div class="col-md-6 col-lg-3">
+                    <div class="price__block price__block_1">                        
                         <h2 class="price__text1">Автодоставка</h2>                      
                         <img src="icons/icon_transport/icon_car.png" alt="car" class="price__icon price__icon_animated ">
                         <div class="price__text">Доставка 12-20 дня
                         </div> 
                         <div class="price__red">от 1$ за 1 кг</div>
-                        <div class="price__descr">Автоперевозки грузов из Китая в Россию от 2 недель<br> 
+                        <div class="price__descr">Автоперевозки грузов из <br> Китая в Россию от 2 недель<br> 
                         с прохождением таможни</div>
                         <button class="button">Подробнее</button>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-lg-3"> 
+                <div class="col-md-6 col-lg-3"> 
                     <div class="price__block">                        
                             <h2 class="price__text1">Авиа доставка</h2>                        
                         <img src="icons/icon_transport/icon_air.png" alt="air" class="price__icon price__icon_animated">
                         <div class="price__text">Доставка 1-12 дней
                         </div>
                         <div class="price__red">от 6$ за 1 кг</div>
-                        <div class="price__descr">Авиаперевозки грузов из Китая в Россию до 2 недель<br> 
+                        <div class="price__descr">Авиаперевозки грузов из Китая<br> в Россию до 2 недель<br> 
                         с прохождением таможни</div>
                         <button class="button">Подробнее</button>
                     </div>
@@ -293,7 +304,7 @@
                 <input name="name" placeholder="Ваше имя" type="text"> 
                 <input name="phone" placeholder="Ваш телефон"> 
                 <input name="email" placeholder="Ваш E-mail" type="email">
-                <button class="button">Отправить заявку</button>
+                <button class="button button_1">Отправить заявку</button>
                 <div class="price__bg"></div>   
                               
             </form>
@@ -301,7 +312,7 @@
     </div>     
     </section>
 
-    <section class=" manager">
+   <section class=" manager">
     <div class="container">
         <div class="row">
             <div class="col-md-12"> 
@@ -428,7 +439,7 @@
                 </div>      
             </div>                 
     </section> 
-    <section class="forms2">
+      <section class="forms2">
         <div class="container"> 
             <div class="forms2__block">
                 <div class="forms2__title">Остались вопросы?</div>
@@ -445,18 +456,18 @@
 
     </section>
    
-        <div id="map"></div>
+     <div id="map"></div>
   
-    <footer class="footer">
+   <footer class="footer">
         <div class="container">
             <div class="row"> 
-                <div class="col-md-1 col-lg-1">
+                <div class="col-md-1 col-lg-1 col-sm-2 col-2">
                     <a href="#" class="footer__logo"><img src="icons/logo_small1.png" alt="logo"></a>
                 </div>
-                <div class="col-lg-5 col-md-4 ">
+                <div class="col-lg-5 col-md-4 col-sm-10  col-10">
                     <div class="footer__title">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
                 </div>
-                <div class="footer__contacts col-lg-2 offset-lg-2 col-md-2 offset-1">
+                <div class="footer__contacts col-lg-2 offset-lg-2 col-md-3 ">
                     <div class="footer__text">Есть вопросы?</div>
                     <a href="+79264230100" class="footer__phone">+7 (926) 423 01 00</a>
                 </div>
@@ -471,13 +482,13 @@
             </div>             
             
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-4">
                     <div class="footer__text0">Text: © 2010 Scratch.com.ua;</div>
                 </div>
-                <div class="col-md-3 offset-1">
+                <div class="col-md-3 offset-md-1 col-sm-4  col-4">
                     <a class="footer__link" href="#">Политика конфидециальности</a>
                 </div>
-                <div class="col-md-3 offset-md-2 footer__contacts2">
+                <div class="col-md-3 offset-md-1  col-lg-3 offset-lg-2 col-sm-4  col-4 footer__contacts2 ">
                     <div class="footer__text2">Создание сайта:</div> 
                     <a href="#" class="footer__logo1">
                     <img src="icons/logo_another.png" alt="logo"></a>
@@ -487,7 +498,8 @@
     </footer>
     <a href="#" class="pageup">
         <img src="icons/up.svg" alt="up">
-    </a>
+     </a>
+   
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

@@ -1,5 +1,12 @@
 .feed {
     padding: 30px 0 64px 0;
     min-height: 471px;
+    .devider__small{
+        margin: 0 auto;
+        margin-top: 24px;
+        width: 148px;
+        height: 1px; 
+        background-color: $main-color; 
+    }
    
 }
