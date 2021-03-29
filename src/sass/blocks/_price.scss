@@ -78,7 +78,8 @@
         align-items: center;
         margin: 0 auto;
     }
-    &__block2 {       
+    &__block2 { 
+        position: relative;      
     
         .button { 
             position: absolute; 
@@ -89,18 +90,18 @@
             font-weight: 400;
             text-transform: uppercase;
             color: #ffffff;
-            bottom: 28px;
+            bottom: -20px;
             z-index: 2; 
                  
         }        
     }
     &__bg {
         position: absolute;
-        top: 850px; 
+        top: 230px; 
         left: 50%;
         transform: translateX(-50%);       
         width: 175px;
-        height: 60px;
+        height: 40px;
         background-color: #ffffff;
         bottom: 30px; 
         border: none; 
@@ -120,7 +121,7 @@
     &__iconbg {
         position: absolute;
         left: 50%;
-        top: 610px;
+        top: 14px;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
@@ -136,7 +137,7 @@
     &__icon2 {
         position: absolute;
         left: 50%;       
-        top: -10px;
+        top: -15px;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;

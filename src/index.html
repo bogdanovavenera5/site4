@@ -20,12 +20,12 @@
                 <a href="#" class="header__logo"><img src="icons/logo_big.png" alt="logo"></a>
                 <nav class="header__list"> 
                     <ul class="header-menu">
-                        <li class="header__item"><a href="#" class="header__link">Преимущества</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Цены</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Схема работы</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
-                        <li class="header__item"><a href="#" class="header__link"> Контакты</a></li>
+                        <li class="header__item"><a href="#work" class="header__link">Преимущества</a></li>
+                        <li class="header__item"><a href="#delivery"" class="header__link">Наша работа</a></li>
+                        <li class="header__item"><a href="#price" class="header__link">Цены</a></li>
+                        <li class="header__item"><a href="#schema" class="header__link">Схема работы</a></li>
+                        <li class="header__item"><a href="#feed" class="header__link">Отзывы</a></li>
+                        <li class="header__item"><a href="#form2" class="header__link"> Контакты</a></li>
                     </ul> 
                     <div class="hamburger">
                         <span></span>
@@ -84,7 +84,7 @@
             </div>
         </div>
     </section>
-    <section class="work">
+ <section class="work" id="work">
         <div class="container">
             <div class="title">Преимущества работы с GlobalOpt</div>
             <div class="row">           
@@ -176,7 +176,7 @@
         </div>
     </section>
 
-   <section class="delivery">
+   <section class="delivery" id="delivery">
         <div class="container">
             <div class="title">Наша работа - больше чем просто доставка</div>
             <div class="devider__small"></div>
@@ -232,7 +232,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
     <div class="container ">
         <div class="title">Цены на любой вариант доставки</div>
         <div class="devider__small"></div>
@@ -334,7 +334,7 @@
     </div>
     </section>
 
-    <section class="schema">
+    <section class="schema" id="schema">
         <div class="container">
             <div class="title">Схема работы с нами</div>       
             <div class="schema__block1">               
@@ -383,7 +383,7 @@
         </div>
     </section>
 
-    <section class="feed">
+    <section class="feed" id="feed">
          <div class="container"> 
              <div class="title">отзывы наших клиентов</div>
             <div class="devider__small"></div>
@@ -443,15 +443,15 @@
             </div>
         </div>                 
     </section> 
-      <section class="forms2">
+      <section class="forms2" id="form2">
         <div class="container"> 
             <div class="forms2__block">
                 <div class="forms2__title">Остались вопросы?</div>
-                <div class="forms2__subtitle">Остались вопросы?</div>
+                <div class="forms2__subtitle">Напишите нам!</div>
             </div> 
             <form class="forms2__block1" action="#">                
-                <input name="name" required placeholder="Ваше имя" type="text"> 
-                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="name" required placeholder=" Ваше имя ..." type="text"> 
+                <input name="phone" required placeholder="Ваш номер телефона ..."> 
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button__submit">Отправить заявку</button> 
                 <input class="message" name="message" required placeholder="Сообщение..." type="text">
@@ -460,7 +460,7 @@
 
     </section>
    
-     <div id="map"></div>
+     <div class="map" id="map"></div>
   
     <footer class="footer">
         <div class="container">
@@ -486,10 +486,10 @@
             </div>             
             
             <div class="row">
-                <div class="col-md-3 col-sm-4 col-2">
+                <div class="col-md-3 col-sm-4 col-3">
                     <div class="footer__text0">Text: © 2010 Scratch.com.ua;</div>
                 </div>
-                <div class="col-md-3 offset-md-1 col-sm-4  col-3">
+                <div class="col-md-3 offset-md-1 col-sm-4  col-4">
                     <a class="footer__link" href="#">Политика конфидециальности</a>
                 </div>
                 <div class="col-md-3 offset-md-1  col-lg-3 offset-lg-2 col-sm-4  col-2 footer__contacts2 ">
@@ -503,7 +503,7 @@
     <a href="#" class="pageup">
         <img src="icons/up.svg" alt="up">
      </a>
-     
+        
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
