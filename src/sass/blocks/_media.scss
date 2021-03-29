@@ -734,7 +734,7 @@
 @media screen and (max-width: 575px) {
     .container {
         width: 100%;
-        padding: 10px;
+        padding: 15px;
     } 
     .promo {
         padding: 10px 0  20px  0;
@@ -980,7 +980,7 @@
         &__block1 {
             padding: 10px 0  10px 0;
             width: 260px;
-            height: 310px;
+            height: 330px;
             padding-right: 5px;
             padding-left: 5px; 
         }
@@ -1022,12 +1022,17 @@
         }
         &__text2 {
             margin-top: 12px;
+            font-size: 9px;
         }
         &__link {
             margin-top: 12px;
+            font-size: 9px;
+            text-align: center;
+
         }
         &__text0 {
             margin-top: 12px;
+            font-size: 9px;
         }
         &__liner {
             display: flex;
