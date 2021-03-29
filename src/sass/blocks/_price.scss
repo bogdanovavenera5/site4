@@ -95,7 +95,8 @@
         }        
     }
     &__bg {
-        position: absolute; 
+        position: absolute;
+        top: 850px; 
         left: 50%;
         transform: translateX(-50%);       
         width: 175px;
@@ -135,7 +136,7 @@
     &__icon2 {
         position: absolute;
         left: 50%;       
-        bottom: 3px;
+        top: -10px;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
@@ -160,12 +161,13 @@
             
         }
     }
-    &__form {
+    &__form {        
         display: flex;
         justify-content: center;
+        align-items: center;
         margin: 0 auto;
         margin-top: 70px;
-        width: 1140px;
+        width: 1100px;
         height: 166px;
         border: 1px solid rgb(198, 189, 189);
         &:hover {            
@@ -175,18 +177,17 @@
 
         input {   
             display: flex;
-            justify-content: center;  
-            align-items: center;   
+            justify-content: space-evenly;  
+            align-items: center;               
             border: 1px solid #898989;
             border-radius: 30px;
             width: 270px;
-            height: 47px;         
-            border: 1px solid rgba(0,0,0,0.2);
-            margin-right: 4px; 
+            height: 47px;        
             width: 270px;
             padding-left: 20px;           
             text-align: start;   
-            margin-top: 70px;            
+            margin-top: 30px;
+            margin-right: 4px;                      
             &:hover {            
             border: 1px solid #898989;
             }     

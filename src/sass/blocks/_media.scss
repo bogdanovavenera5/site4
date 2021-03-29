@@ -1,6 +1,19 @@
 *{
 	box-sizing: border-box;
 }
+@media screen and (max-width: 1600px) {
+    .slider-feed {  
+        .slick-next {
+        right: 400px;
+        }
+        .slick-prev {
+        left: 400px;
+        }
+
+
+
+    }
+}
 @media screen and (max-width: 1200px){
     .container {
         width: 960px;
@@ -98,9 +111,8 @@
         }
     }
     .forms2 {
-
         .button.button__submit {
-            top: 4858px;
+            top: 160px;
         }
     }
     .schema {
@@ -132,12 +144,8 @@
         width: 130px;
     }
     }
-    .forms2 {
-        .button.button__submit {
-            top: 4886px;
-        }  
-    }
 }
+
 @media screen and (max-width: 991px) {
      .container {
             width: 720px;
@@ -170,7 +178,7 @@
             padding-left: 5px;
             padding-right: 5px;
         }.button {    
-            right: 40px;
+            right: 0px;
             margin-top: 6px;
             width: 140px;
             height: 30px;
@@ -306,13 +314,13 @@
             bottom: 10px;
         }
         .button {
-            bottom: 30px;
+            bottom: 0px;
             font-weight: 500px;
             width: 140px;
             height: 35px; 
         }
         &__iconbg {
-            top: 955px;
+            top: 950px;
         }
         &__icon2 {
             width: 90px;
@@ -327,6 +335,15 @@
         }
         &__form {
             width: 680px;
+        }
+        &__block2 {
+            .button {
+                top: 1185px;     
+            }
+
+        }
+        &__bg {
+            top: 1170px;
         }
     }
     .schema {
@@ -357,10 +374,10 @@
             font-size: 16px;            
         }
         .slick-next {
-            right: 290px;
+            right: 230px;
         }
         .slick-prev {
-            left: 290px;
+            left: 230px;
         }
     }
     .forms2 {
@@ -382,8 +399,8 @@
             margin-right: 5px; 
             margin-left: 7px;        
         }
-        .button.button__submit{
-            top: 5330px;
+        .button.button__submit {
+            top: 150px;
             height: 40px;
             font-size: 14px;
             font-weight: 300;
@@ -592,6 +609,14 @@
         &__title {
             font-size: 24px;
         }
+        &__block2 {
+            .button {
+                top: 2150px;     
+            }
+        }
+        &__bg {
+            top: 2150px;
+    }
     }
     .manager {
         &__icon {
@@ -674,15 +699,14 @@
             height: 40px;
             margin: 10px auto;                 
         }
-        .button.button__submit{
-            top: 8030px;
-            height: 40px;
-            font-size: 14px;
-            font-weight: 300;
-        }
+        
         &__title {
             font-size: 16px;
-        }        
+        } 
+        .button.button__submit {
+            top: 250px;           
+        }
+        
     }
     .footer {
         &__contacts {
@@ -703,6 +727,9 @@
         &__contacts2 {
             display: flex;
             flex-direction: column;
+        }
+        &__liner {
+            width: 480px
         }
     }
 }
@@ -892,11 +919,12 @@
             height: 64px;
         }
         &__bg {
-            width: 150px;            
+            width: 150px;
+            top: 2050px;            
         }
         .button_1 {
             font-size: 10px;
-            bottom: 40px;
+            top: 2050px;
         }
     } 
     .manager {
@@ -971,13 +999,7 @@
             margin: 10px auto;
             font-size: 12px;                 
         }
-        .button.button__submit{
-            top: 8900px;
-            height: 30px;
-            width: 150px;
-            font-size: 12px;
-            font-weight: 300;
-        }
+       
         &__title {
             font-size: 16px;
         }        
@@ -987,7 +1009,7 @@
         padding: 0;
         
         &__title {
-            margin-left:  18px;
+            margin-left:  10px;
             margin-top: 10px;
             
         }
@@ -1008,6 +1030,13 @@
         }
         &__text0 {
             margin-top: 12px;
+        }
+        &__liner {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 300px;
         }
     }
 }       
