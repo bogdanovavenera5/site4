@@ -8,6 +8,7 @@
         margin: auto;
         padding-top: 28px;
     }
+   
     &__link {   
         line-height: 16px;        
         color: #ffffff;
@@ -58,8 +59,20 @@
     }
     .hamburger{
         display: none;
+        z-index: 1;
+        span {
+            z-index: 1;
+        }
+    }
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        opacity: 0.75;
     }
 	
     
 }
-   
