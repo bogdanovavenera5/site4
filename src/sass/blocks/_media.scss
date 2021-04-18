@@ -183,7 +183,8 @@
         &__item {
             padding-left: 5px;
             padding-right: 5px;
-        }.button {    
+        }
+        .button {    
             right: 0px;
             margin-top: 6px;
             width: 140px;
@@ -827,7 +828,7 @@
             top: 30px;
             width: 26px;
             height: 12px;
-            z-index: 1;            
+            z-index: 2;            
             span {
                 display: block;
                 height: 2px;
@@ -1098,8 +1099,7 @@
         }
     }
 
-}
-      
+}      
 @media screen and (max-width: 350px) {
     .price { 
 
@@ -1114,9 +1114,6 @@
         .header__contacts {
             margin-left: 20px;
         }
-    }
-   
-
-   
+    }   
 }
        

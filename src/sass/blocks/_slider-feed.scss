@@ -42,6 +42,7 @@
     width: 14px;
     height: 46px;
     z-index: 10;
+    &:active,&:focus {outline: none; }
 }
 .slick-next { 
     position: absolute;   
@@ -50,7 +51,8 @@
     transform: translateY(-28%);
     background: url('../icons/up_right.png') 0 0 / 100% no-repeat;
     border: none;
-    background-color: #fff;        
+    background-color: #fff;
+    background-color: opacify($color: #faf8f800, $amount: 0);        
     
 }
 .slick-prev {
@@ -60,7 +62,8 @@
     transform: translateY(-28%); 
     background: url('../icons/up_left.png') 0 0 / 100% no-repeat;
     border: none;
-    background-color: #fff;        
+    background-color: #fff; 
+    background-color: opacify($color: #faf8f800, $amount: 0);       
 }
 .slick-dots {
     display: flex;
